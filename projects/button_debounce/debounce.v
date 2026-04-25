@@ -1,3 +1,5 @@
+`timescale 1ns / 1ns
+
 module debounce (
     input wire clk,
     input wire rst_n,
@@ -5,9 +7,9 @@ module debounce (
     output reg button_out
 );
 
-parameter DEBOUNCE_COUNT = 10'd250;
+parameter DEBOUNCE_COUNT = 10'd12500000;
 
-reg [7:0] debouncer_cnt;
+reg [32:0] debouncer_cnt;
 reg button_reg;
 
 always @(posedge clk or negedge rst_n) begin

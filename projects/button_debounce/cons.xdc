@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN H16 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property PACKAGE_PIN D19 [get_ports button_in]
+set_property IOSTANDARD LVCMOS33 [get_ports button_in]
+set_property PACKAGE_PIN R14 [get_ports button_out]
+set_property IOSTANDARD LVCMOS33 [get_ports button_out]
+set_property PACKAGE_PIN M20 [get_ports rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
