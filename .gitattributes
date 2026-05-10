@@ -10,3 +10,6 @@
 课程课件/第三节：FPGA仿真、简单IP核引入.pdf filter=lfs diff=lfs merge=lfs -text
 课程课件/第三节-Part1：开源RTL行为仿真.pdf filter=lfs diff=lfs merge=lfs -text
 课程课件/第三节-Part1：开源RTL行为仿真.pptx filter=lfs diff=lfs merge=lfs -text
+课程课件/第四节：UART收发、Block[[:space:]]Design、跨时钟域.pdf filter=lfs diff=lfs merge=lfs -text
+课程课件/README.md filter=lfs diff=lfs merge=lfs -text
+课程课件/第四节：UART收发、Block[[:space:]]Design、跨时钟域.odp filter=lfs diff=lfs merge=lfs -text
