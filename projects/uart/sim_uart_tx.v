@@ -50,6 +50,7 @@ initial begin
     @(posedge clk)
     #1 data_valid = 0;
     wait(data_ready == 1); // Wait for transmit finish
+    #160000; // Ensure no more data
     #10000 $finish;
 end
 
