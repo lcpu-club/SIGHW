@@ -18,7 +18,7 @@ btn_enc #(.BTN_WIDTH(2)) btn_enc_inst (
     .data_ready(data_ready)
 );
 
-uart_tx data_inst (
+uart_tx uart_tx_inst (
     .clk(clk),
     .rst_n(rst_n),
     .uart_tx(uart_tx),

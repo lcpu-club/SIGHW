@@ -8,7 +8,6 @@ module uart_rx(
     output data_valid
     );
 
-
 reg [9:0] counter;
 reg [9:0] data_buf;
 wire counter_rx;
@@ -16,7 +15,6 @@ wire counter_rx;
 assign counter_rx = (counter[5:0] == 6'b100000);
 assign data_valid = counter == 10'd1;
 assign data = data_buf[8:1];
-
 
 always @(posedge clk or negedge rst_n) begin
     if (!rst_n) begin
@@ -37,3 +35,4 @@ always @(posedge clk or negedge rst_n) begin
 end
 
 endmodule
+
